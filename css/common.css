@@ -1,0 +1,231 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'NotoSansKR_Light';
+    src: url('../font/NotoSansKR_Light.eot'); src:local(※);
+    src: url('../font/NotoSansKR_Light.eot?#iefix') format('eot'),
+         url('../font/NotoSansKR_Light.woff') format('woff'),
+         url('../font/NotoSansKR_Light.ttf') format('truetype'),
+         url('../font/NotoSansKR_Light.svg#NotoSansKR_Light') format('svg');
+    font-style:normal;
+
+}
+@font-face {
+    font-family: 'NotoSansKR_Medium';
+    src: url('../font/NotoSansKR_Medium.eot'); src:local(※);
+    src: url('../font/NotoSansKR_Medium.eot?#iefix') format('eot'),
+         url('../font/NotoSansKR_Medium.woff') format('woff'),
+         url('../font/NotoSansKR_Medium.ttf') format('truetype'),
+         url('../font/NotoSansKR_Medium.svg#NotoSansKR_Medium') format('svg');
+    font-style:normal;
+
+}
+@font-face {
+    font-family: 'NotoSansKR_Regular';
+    src: url('../font/NotoSansKR_Regular.eot'); src:local(※);
+    src: url('../font/NotoSansKR_Regular.eot?#iefix') format('eot'),
+         url('../font/NotoSansKR_Regular.woff') format('woff'),
+         url('../font/NotoSansKR_Regular.ttf') format('truetype'),
+         url('../font/NotoSansKR_Regular.svg#NotoSansKR_Regular') format('svg');
+    font-style:normal;
+
+}
+@font-face {
+    font-family: 'NotoSansKR_Bold';
+    src: url('../font/NotoSansKR_Bold.eot'); src:local(※);
+    src: url('../font/NotoSansKR_Bold.eot?#iefix') format('eot'),
+         url('../font/NotoSansKR_Bold.woff') format('woff'),
+         url('../font/NotoSansKR_Bold.ttf') format('truetype'),
+         url('../font/NotoSansKR_Bold.svg#NotoSansKR_Bold') format('svg');
+    font-style:normal;
+
+}
+
+
+
+
+a {outline: none; select-dummy: expression(this.hideFocus=true);}
+*:focus {outline: none;}
+html {height: 100%; }
+body {margin:0; font-family:'NanumGothic', '나눔고딕'; word-break:keep-all; white-space:normal; line-height:20px; background-color:#f0f0f0;}
+body,table,input,textarea,select {font-family:'NanumGothic', '나눔고딕'; word-break:keep-all; font-size:12px; color:#333333; line-height:20px; vertical-align:top;}
+img	{border:0}
+form	{margin:0}
+ul,li {list-style:none; margin:0px; padding:0px;} 
+.clear {clear:both;}
+
+
+.top_con {width:100%; height:230px; background-image:url(../images/top_bg.jpg); background-position:center;}
+.top_box {width:1000px; height:230px; overflow:hidden; margin:0px auto; position:relative;}
+.top_logo {position:absolute; float:left; top:27px; left:0px; width:260px; height:75px;}
+.top_r_logos {position:absolute; top:27px; right:0px; width:200px; height:75px; background-image:url(../images/top_r_logos.jpg);}
+.top_subcopy {position:absolute; float:left; top:135px; left:10px; font-family:'NotoSansKR_Regular'; font-size:19px; color:#0072bc;}
+.top_menu {position:absolute; top:180px; right:0px;}
+.top_menu li {float:left;  font-family:'NotoSansKR_Medium'; height:14px; font-size:14px; color:#17465c; padding:0px 18px; border-right:1px #009 solid; cursor:pointer;}
+.top_menu li:last-child {float:left;  font-family:'NotoSansKR_Medium'; font-size:14px; color:#17465c; padding-left:18px; padding-right:0px; border-right:0px;}
+.top_menu li:hover {color:#FFF;}
+
+.lang {position:absolute; right:0px; top:5px; font-family:'NotoSansKR_Medium'; height:14px; font-size:14px; color:#FFFFFF;}
+.lang a {color:#FFF;}
+.lang a:hover {color:#c9ecff; text-decoration:none;}
+
+
+.body_con {width:1020px; margin:-32px auto 0px auto; background-image:url(../images/body_bg.png);}
+.body_con_end {width:1020px; height:60px; margin:0px auto; background-image:url(../images/body_bg_end.png);}
+
+.body_left {float:left; width:155px; margin-left:10px;}
+.body_contents {float:left; width:625px; min-height:300px;}
+.body_right {float:left; width:220px; margin-right:10px;}
+
+.right_banner {width:220px; height:255px; margin-top:6px; margin-right:10px; background-image:url(../images/r_banner.png); overflow:hidden; text-align:right; line-height:14px;}
+.r_banner_tt {font-family:'NotoSansKR_Light'; font-size:28px; color:#FFF; padding-right:10px; padding-top:175px; line-height:26px;}
+.r_banner_st {font-family:'NotoSansKR_Light'; font-size:14px; color:#FFF; padding-right:10px; padding-top:10px;}
+
+.r_menu {width:220px; height:50px; border-bottom:1px #FFFFFF solid; overflow:hidden; cursor:pointer;}
+.r_menu:hover {background-color:#d0d0d0;}
+.r_menu_txt {float:left; padding:18px 0px 0px 15px; font-family:'NotoSansKR_Regular'; font-size:13px; color:#898989;}
+.r_menu_arrow {float:right; padding:18px 15px 0px 0px;}
+
+/* LEFT MENU */
+.left_menu {}
+.left_menu_title {padding:22px 0px 15px 18px; font-family:'NotoSansKR_Light'; font-size:18px; color:#000;}
+.left_menu_list {padding:0px 0px 0px 28px; font-family:'NotoSansKR_Regular'; font-size:12px; color:#000;}
+.left_menu_list li {padding-top:10px; cursor:pointer;}
+.left_menu_list li:hover {font-family:'NotoSansKR_Bold'; color:#0072bc;}
+
+.left_menu_list_i {padding:0px 0px 0px 28px; font-family:'NotoSansKR_Regular'; font-size:12px; color:#999;}
+.left_menu_list_i li {padding-top:12px; line-height:14px; cursor:pointer;}
+.left_menu_list_i li:first-child {padding-top:10px; font-size:14px; cursor:default; color:#000;}
+.left_menu_list_i li:hover {font-family:'NotoSansKR_Bold'; color:#0072bc;}
+.left_menu_list_i li:first-child:hover {padding-top:10px; font-family:'NotoSansKR_Regular'; font-size:14px; cursor:default; color:#000;}
+
+/* main */
+.main_body {float:left; width:780px; margin-left:10px;}
+.main_banner {width:781px; height:255px; margin-top:6px; overflow:hidden;}
+.main_content {width:780px; margin-top:20px;}
+.main_left {float:left; width:440px; margin-left:10px;}
+.main_left_title {font-family:'NotoSansKR_Light'; font-size:28px; color:#898989; margin-bottom:10px;}
+.main_left_icon {font-family:'NotoSansKR_Regular'; font-size:12px; color:#898989; line-height:14px; text-align:center;}
+.main_left_icon li {float:left; margin-right:5px; cursor:pointer;}
+
+.main_right {float:left; width:320px; }
+.main_right_title {font-family:'NotoSansKR_Light'; font-size:28px; color:#898989; margin-bottom:10px; line-height:28px}
+.main_right_txt {font-family:'NotoSansKR_Light'; font-size:12px; color:#898989; line-height:16px; margin-bottom:10px;}
+.main_right_photo {padding-top:5px; clear:both;}
+
+/* main rolling */
+.roll_slide_wrap {float:left; position:relative; width:100%; height:255px; top:0px; left:0px; margin:0 auto; z-index:500; overflow:hidden;}
+.roll_slide {float:left; position:relative; width:100%; height:255px; top:0px; left:0px; margin:0 auto; z-index:1; overflow:hidden;}
+.roll_banner {width:781px; height:255px;}
+
+.slide_prev {position:absolute; top:90px; left:0px; background-image:url('/images/arrow_l.png'); width:49px; height:79px; z-index:1000; cursor:pointer; transition:color .0.2s ease-out, background 0.2s ease-in;}
+.slide_prev:hover {background-image:url('/images/arrow_l_o.png');}
+.slide_next {position:absolute; top:90px; right:0px; background-image:url('/images/arrow_r.png'); width:49px; height:79px; z-index:1000; cursor:pointer; transition:color .0.2s ease-out, background 0.2s ease-in;}
+.slide_next:hover {background-image:url('/images/arrow_r_o.png');}
+
+
+/* industry */
+.ind_banner {width:625px; height:255px; margin-top:6px; overflow:hidden;}
+.ind_txt {font-family:'NotoSansKR_Light'; font-size:13px; color:#898989; margin-top:20px; padding-right:20px; line-height:24px;}
+.ind_txt_l {font-family:'NotoSansKR_Regular'; font-size:18px; color:#898989;}
+.ind_box {width:585px; border-radius:3px; padding:20px 10px; margin-top:40px; background-color:#efefef; font-family:'NotoSansKR_Regular'; font-size:13px; color:#898989; line-height:24px;}
+
+.sol_banner {width:625px; height:120px; margin-top:6px; overflow:hidden;}
+.sol_menu {width:590px; margin-left:15px; margin-top:15px;}
+.sol_menu_tt {float:left; width:65px; font-family:'NotoSansKR_Regular'; font-size:14px; color:#898989;}
+.sol_menu_con {float:left; border-left:1px #CCCCCC solid;}
+.sol_menu_list {clear:both;}
+.sol_menu_list li {float:left; font-family:'NotoSansKR_Regular'; font-size:14px; color:#898989; padding:0px 10px; border-left:1px #CCCCCC solid; height:12px; cursor:pointer;}
+.sol_menu_list li:first-child {font-family:'NotoSansKR_Bold'; font-size:14px; color:#000000; padding:0px 10px; border:0px; cursor:default;}
+.sol_menu_list li:hover {color:#000000;}
+.sol_pic {float:left; margin-top:50px; width:195px; height:155px; margin-left:15px;}
+.sol_txt {float:left; margin-top:50px; width:380px; margin-left:15px; font-family:'NotoSansKR_Light'; font-size:13px; color:#898989; line-height:24px;}
+.sol_txt_b {font-family:'NotoSansKR_Medium'; font-size:14px; color:#898989;}
+.sol_copy {width:590px; margin-left:15px; border-top:1px #CCCCCC solid; padding-top:15px; margin-top:40px; font-family:'NotoSansKR_Light'; font-size:28px; color:#0054a6; text-align:center; line-height:36px;}
+.sol_mid {width:570px; height:159px; margin-left:15px; margin-top:50px; padding:15px 10px 15px 10px; background-image:url(../images/sol_welding_pic2.jpg);}
+.sol_mid_tt {font-family:'NotoSansKR_Regular'; font-size:18px; color:#252525; margin-bottom:15px;}
+.sol_mid_txt {font-family:'NotoSansKR_Regular'; font-size:13px; color:#898989; line-height:24px;}
+
+/* company */
+.com_banner {width:625px; height:120px; margin-top:6px; overflow:hidden;}
+.com_body {width:625px;}
+
+.com_greeting_photo {float:left; width:214px; margin-top:50px; margin-left:15px; margin-right:25px;}
+.com_greeting_txt {width:591px; margin:50px auto 0px auto; font-family:'NotoSansKR_Light'; font-size:13px; color:#666; line-height:24px;}
+.com_greeting_txt_l { font-size:24px; color:#0072b9;}
+
+.com_history_tt {margin:50px 15px 15px 15px;font-family:'NotoSansKR_Medium'; font-size:18px; color:#0072b9; line-height:24px;}
+.com_history_left {float:left; width:120px; margin-left:15px; margin-right:15px; font-family:'NotoSansKR_Light'; font-size:18px; color:#000; line-height:30px;}
+.com_history_right {float:left; width:450px; padding-left:10px; font-family:'NotoSansKR_Light'; font-size:13px; color:#666; line-height:30px; border-left:1px #eee solid;}
+.com_history_bold {font-family:'NotoSansKR_Medium';}
+
+.com_partner_tt {margin:50px 15px 15px 15px;font-family:'NotoSansKR_Medium'; font-size:18px; color:#000; border-bottom:#CCC 1px solid; line-height:24px;}
+
+.com_contact_con {width:591px; margin:50px auto 0px auto;}
+.com_contact_txt {font-family:'NotoSansKR_Light'; font-size:13px; color:#999; line-height:24px;}
+.com_contact_tt {font-family:'NotoSansKR_bold'; font-size:16px; color:#000; border-bottom:#CCC 1px solid;}
+
+/* custom */
+.cus_banner {width:625px; height:120px; margin-top:6px; overflow:hidden;}
+.cus_body {width:625px;}
+
+.cus_process_th_list {width:591px; margin:50px auto;}
+.cus_process_th_list_01 {float:left; width:74px; text-align:center; font-family:'NotoSansKR_Light'; font-size:12px; color:#666; line-height:16px; cursor:pointer;}
+.cus_process_arrow {float:left; width:12px; text-align:center;}
+.cus_process_img {width:591px; height:120px; position:relative; margin:0px auto;}
+.cus_process_img_tt {position:absolute; left:10px; bottom:10px; font-family:'NotoSansKR_Light'; font-size:28px; color:#fff;}
+.cus_process_txt {width:591px; margin:0px auto; padding-top:30px; padding-bottom:50px; font-family:'NotoSansKR_Light'; font-size:13px; line-height:18px; color:#333;}
+
+.cus_tech_tt {margin:30px 17px; font-family:'NotoSansKR_Light'; font-size:24px; line-height:34px; color:#0072b9;}
+.cus_tech_table_tt {width:591px; margin:0px auto; padding-top:50px; font-family:'NotoSansKR_Regular'; font-size:18px; line-height:24px; color:#333; border-bottom:#333 1px solid;}
+.cus_tech_table_tt_s {font-size:12px;}
+.cus_tech_table_con {width:591px; margin:0px auto; font-family:'NotoSansKR_Light'; font-size:13px; line-height:24px; color:#666;}
+.cus_tech_table_con li {width:591px;; padding:15px 0px 5px 0px; border-bottom:#CCC 1px solid;}
+.cus_tech_table_l {float:left; width:480px;}
+.cus_tech_table_r {float:right; width:110px; text-align:right;}
+
+.cus_lab_txt {width:591px; margin:0px auto; padding-top:30px; padding-bottom:50px; font-family:'NotoSansKR_Light'; font-size:13px; line-height:18px; color:#333;}
+.cus_lab_tt {width:591px; margin:0px auto; font-family:'NotoSansKR_Medium'; font-size:16px; line-height:18px; color:#000;}
+
+
+/* product */
+.pro_banner {width:625px; height:120px; margin-top:6px; overflow:hidden;}
+.pro_body {width:625px;}
+
+
+.pro_pf_box {width:591px; margin:0px auto; overflow:auto; font-family:'NotoSansKR_Light'; font-size:13px; line-height:18px; color:#333;}
+.pro_pf_box table {border-collapse:collapse;}
+.pro_pf_box td {padding:5px; border:#CCC 1px solid; font-family:'NotoSansKR_Light'; font-size:13px; line-height:18px; color:#333; text-align:center;}
+.pro_pf_img {width:591px; margin:0px auto;}
+.pro_pf_cont_box {width:591px; margin:50px auto 20px auto;}
+.pro_pf_th {float:left; width:200px; height:250px; background-color:#CCC;}
+.pro_pf_cont {float:left; width:370px; margin-left:20px; font-family:'NotoSansKR_Light'; font-size:13px; line-height:20px; color:#333;}
+.pro_pf_cont p {font-family:'NotoSansKR_Light'; font-size:13px; line-height:20px; color:#333; text-indent:-8px; padding-left:8px; margin-bottom:-7px;}
+.pro_pf_cont_tt {font-family:'NotoSansKR_Bold'; font-size:24px; color:#000; padding-top:10px; padding-bottom:10px;}
+.pro_pf_cont_st {font-family:'NotoSansKR_Medium'; font-size:16px; color:#000; padding-top:35px; padding-bottom:0px;}
+
+.rec_banner {width:625px; height:120px; margin-top:6px; overflow:hidden;}
+.rec_body {width:625px;}
+
+
+.footer_con {width:990px; padding-left:10px; margin:0px auto;}
+.footer_map {float:left; width:128px;}
+.footer_map_tt {font-family:'NotoSansKR_Bold'; font-size:13px; color:#a6a6a6;}
+.footer_map_list {font-family:'NotoSansKR_Regular'; font-size:12px; color:#a6a6a6; cursor:pointer;}
+.footer_map_list li {padding-top:5px;}
+.footer_map_list li:hover {color:#666;}
+
+.footer_info {float:right; width:220px; height:200px;}
+.footer_logo {width:220px; height:58px; background-image:url(../images/footer_logo.jpg);}
+.footer_logo_en {width:220px; height:58px; background-image:url(../images/footer_logo_en.jpg);}
+.footer_txt {padding-top:10px; padding-left:5px; font-family:'NotoSansKR_Regular'; font-size:11px; color:#a6a6a6; line-height:18px;}
+.footer_mail {width:114px; height:21px; margin-top:10px; background-image:url(../images/footer_mail.jpg); cursor:pointer;}
+.footer_mail:hover {background-image:url(../images/footer_mail_o.jpg);}
+
+.footer_end {width:1000px; height:50px; border-top:1px #CCCCCC solid; margin:0px auto; font-family:'NotoSansKR_Regular'; font-size:11px; color:#a6a6a6;}
+.footer_end_l {float:left; padding-top:10px;}
+.footer_end_r {float:right; padding-top:10px;}
+.footer_end_l li {float:left; height:13px; padding:0px 10px; border-left:1px #a6a6a6 solid;} 
+.footer_end_l li:first-child {padding-left:0px; border:0px;}
